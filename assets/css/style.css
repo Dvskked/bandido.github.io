@@ -223,3 +223,22 @@ button:hover{
         transform:translateY(0);
     }
 }
+
+.btn-home{
+    display:inline-block;
+    margin:20px 0;
+    padding:10px 20px;
+    background:transparent;
+    border:2px solid cyan;
+    color:rgb(71, 241, 232);
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-home:hover{
+    background:cyan;
+    color:white;
+    transform:scale(1.05);
+}
